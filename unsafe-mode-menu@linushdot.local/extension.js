@@ -7,6 +7,7 @@ const Main = imports.ui.main;
 class Extension {
     constructor() {
         this._menuItem = null;
+        global.context.unsafe_mode = true;
     }
 
     enable() {
